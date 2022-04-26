@@ -1,0 +1,224 @@
+.head {
+    background: -webkit-linear-gradient(left, #bc327e,#eb5340);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 7px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.head h3 {
+    padding: 6px;
+    margin-top: -33px;
+    font-size: 13px;
+}
+
+.head p {
+    margin-top: -15px;
+    margin-bottom: 2px;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background: #f6f6f6;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin-top: 30px;
+}
+
+.wrapper .header {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.wrapper .header .top,
+.wrapper .signup {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.wrapper .header .logo img {
+    display: block;
+    margin: 0 auto 35px;
+}
+
+.wrapper .header .form .input_field {
+    margin-bottom: 5px;
+}
+
+.wrapper .header .form .input_field .input {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+
+.wrapper .header .form .input_field .input:focus {
+    border: 1px solid #b2b2b2;
+}
+
+.wrapper .header .form .btn {
+    margin: 10px 0;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+.wrapper .header .form .btn a {
+    color: #fff;
+    display: block;
+}
+
+.wrapper .header .or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin: 15px 0 20px;
+}
+
+.wrapper .header .or .line {
+    width: 105px;
+    height: 2px;
+    background: #efefef
+}
+
+.wrapper .header .or p {
+    color: #999;
+    font-size: 12px;
+}
+
+.wrapper .dif .fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.wrapper .dif .fb img {
+    width: 16px;
+    height: 16px;
+}
+
+.wrapper .dif .fb p {
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.wrapper .dif .forgot {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.wrapper .dif .forgot a {
+    color: #003569;
+}
+
+.wrapper .signup {
+
+    text-align: center;
+    color: #262626;
+}
+
+.wrapper .signup a {
+    color: #3897f0;
+}
+
+.wrapper .apps {
+    text-align: center;
+    color: #262626;
+}
+
+.wrapper .apps p {
+    margin-bottom: 20px;
+}
+
+.wrapper .apps a img {
+    width: 135px;
+    height: 40px;
+    margin: 0 5px;
+}
+.x {
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: -35px;
+    margin-top: -10px;
+    opacity: .4;
+}
+
+.y {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 4px;
+    margin-top: -3px;
+
+}
+
+
+.dont {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 35px;
+    font-weight: medium;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    margin-left: -10px;
+    position: fixed;
+    bottom: -1px;
+    width: 105%;
+}
+
+hr {
+    position: relative;
+    margin-top: -5px;
+}
+
+.foot {
+    opacity: .2;
+    bottom: 3px;
+    right: 10px;
+    position: fixed;
+}
+
+.get {
+    position: relative;
+    top: 4px;
+    left: 85%;
+    padding: 7px;
+    background-color: #eb5340;
+    border-radius: 6px;
+    border-width: 1.5px;
+    border-color: white;
+    color: white;
+    border-style: solid;
+}
+
+.input:focus {
+    color: red;
+}
